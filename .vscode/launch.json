@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/home/chi/桌面/OJ/LUOGU",
-      "program": "/home/chi/桌面/OJ/LUOGU/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/10303/Desktop/OJ/LUOGU",
+      "program": "c:/Users/10303/Desktop/OJ/LUOGU/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

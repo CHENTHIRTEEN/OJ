@@ -26,6 +26,8 @@ int main() {
             }
 
         }
+//    cout << "x1=" << x1 << " y1=" << y1 << endl;
+//    cout << "x2=" << x2 << " y2=" << y2 << endl;
     for (int i = 1; i <= 100000; i++)
     {
         if (map[x1 + d[face1][0]][y1 + d[face1][1]] == '*')
@@ -42,9 +44,11 @@ int main() {
             x2 += d[face2][0];
             y2 += d[face2][1];
         }
-  
+
         res ++;
         if (x1 == x2 && y1 == y2)break;
+//        cout << "i=" << i << " x1=" << x1 << " y1=" << y1 << " x2=" << x2 << " y2=" << y2 <<  " face1=" <<face1<< " face2=" <<face2<<endl;
+//        cout << "res = "<< res << endl;
     }
 
 
